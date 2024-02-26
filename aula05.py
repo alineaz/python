@@ -18,11 +18,16 @@ arquivo.close()
 with open("teste.txt","a") as arquivo:
     conteudo = "\n Linha adicionada com WITH \n" # adicionando conteudo na variavel
     arquivo.write(conteudo) # gravando conteudo no arquivo
-print("Finalizado")
+#print("Finalizado")
 
 # ===========================
 # CSV
 
-with open("arquivo.csv","a") as planilha:
+with open("arquivo.csv","r") as planilha:
     conteudo = csv.reader(planilha,delimiter=";")
-    print(conteudo)
+    #generator 
+    #print(next(conteudo))
+    for linha in conteudo:
+        print(linha)
+
+# ===========================
