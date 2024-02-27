@@ -14,5 +14,12 @@ dest = {}
 #dest.update(orig['A'])
 
 
-print(orig['A'])
-print(orig)
+#print(orig['A'])
+#print(orig)
+
+nome = "aline"
+total = 0 
+for letra in nome:
+    print(letra)
+    total += 1 
+print(total)

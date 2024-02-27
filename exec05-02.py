@@ -30,3 +30,4 @@ with open("faroeste.txt","r",encoding="UTF-8") as arquivo:
 
 print(f"Vogais: {vogais}")
 print(f"Não vogais: \n{consoantes}")
+
