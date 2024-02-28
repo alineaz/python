@@ -22,4 +22,15 @@ total = 0
 for letra in nome:
     print(letra)
     total += 1 
-print(total)
+#print(total)
+    
+*teste = ""
+
+print(type(*teste))
+
+#Dado um parametro *args qual o tipo do objeto args?
+#tuple 
+
+#Dado um parametro **kwargs qual o tipo do objeto kwargs?
+#dict 
+
