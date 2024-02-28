@@ -23,10 +23,7 @@ for letra in nome:
     print(letra)
     total += 1 
 #print(total)
-    
-*teste = ""
 
-print(type(*teste))
 
 #Dado um parametro *args qual o tipo do objeto args?
 #tuple 
@@ -34,3 +31,9 @@ print(type(*teste))
 #Dado um parametro **kwargs qual o tipo do objeto kwargs?
 #dict 
 
+x = 3
+y = 2
+
+print(f"/ operator {x/y}")
+print(f"// operator {x//y}")
+print(f"% operator {x%y}")
